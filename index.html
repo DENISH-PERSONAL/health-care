@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Solutions</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo-placeholder.png" alt="Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <!-- <h1>Empowering Healthcare Through Innovation</h1>
+            <p>Transforming healthcare delivery with cutting-edge technology solutions</p>
+            <button class="cta-button">Learn More</button> -->
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Our Solutions</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <i class="fas fa-microscope"></i>
+                <h3>IVF Software</h3>
+                <p>Advanced software solutions for fertility clinics</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-video"></i>
+                <h3>Telemedicine Solutions</h3>
+                <p>Virtual healthcare delivery platform</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-hospital"></i>
+                <h3>Hospital Information System</h3>
+                <p>Comprehensive hospital management solution</p>
+            </div>
+            <div class="product-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile App Development</h3>
+                <p>Custom healthcare mobile applications</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <p>We are dedicated to revolutionizing healthcare through innovative technology solutions. Our mission is to improve patient care and streamline healthcare operations.</p>
+            <div class="values">
+                <div class="value-item">
+                    <h3>Innovation</h3>
+                    <p>Pushing boundaries in healthcare technology</p>
+                </div>
+                <div class="value-item">
+                    <h3>Quality</h3>
+                    <p>Delivering excellence in every solution</p>
+                </div>
+                <div class="value-item">
+                    <h3>Integrity</h3>
+                    <p>Building trust through transparency</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Mobile Number</label>
+                    <input type="tel" id="mobile" name="mobile" required>
+                </div>
+                <div class="form-group">
+                    <label for="product">Product</label>
+                    <select id="product" name="product" required>
+                        <option value="">Select a product</option>
+                        <option value="ivf">IVF Software</option>
+                        <option value="telemedicine">Telemedicine Solutions</option>
+                        <option value="his">Hospital Information System</option>
+                        <option value="mobile">Mobile App Development</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Healthcare Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
